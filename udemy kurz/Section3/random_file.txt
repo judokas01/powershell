@@ -1,0 +1,14 @@
+Line1 This is Random File
+Line2 : A random statement
+Line3 : A random statement
+Line4 : #WARNING: This is a warning
+Line5 : A random statement
+Line6 : #ERROR: Something went wrong here. This is an Error message
+Line7 : A random statement
+Line8 : #INFORMATION: This is just information. Dont panic
+Line9 : A random statement. This is second last statemnet
+Line10 : #ERROR: Something went wrong here. This is an Error message
+Line10 : #ERROR: Something went wrong here. This is an Error message
+Line10 : #INFORMATION: This is just information. Dont panic
+
+

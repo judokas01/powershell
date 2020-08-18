@@ -1,0 +1,1 @@
+%systemroot%\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "(\\alfa\Hotline_users\CO\profylaxe_test.ps1)"

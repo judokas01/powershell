@@ -1,0 +1,29 @@
+<DAILY_REPORT>
+		
+		<DATABASE_DETAILS>
+			<HOST>localhost</HOST>
+			<DATABASE>XE</DATABASE>
+			<USERNAME>SYSTEM</USERNAME>
+			<PASSWORD>SYSTEM</PASSWORD>
+			<!-- Any Extra row if required-->
+		</DATABASE_DETAILS>
+		
+		<REPORT_QUERIES>
+			<QUERY>select * from DOMAIN_SYSTEM_INFORMATION</QUERY>
+			
+		</REPORT_QUERIES>
+		
+		<EMAIL>
+			<FROM>testingpurpose201801@gmail.com</FROM>
+			<TO>testingpurpose201801@gmail.com</TO>
+			<CC>testingpurpose201801@gmail.com</CC>
+			<SUBJECT>Daily Status Report </SUBJECT>
+			
+			<SMTP>smtp.gmail.com</SMTP>
+			<SMTP_USERNAME>testingpurpose201801@gmail.com</SMTP_USERNAME>
+			<SMTP_PASSWORD>TestingPurpose_forStudents</SMTP_PASSWORD>
+			
+			
+		</EMAIL>
+		
+</DAILY_REPORT>	

@@ -1,0 +1,15 @@
+﻿$soubor =( Read-Host -Prompt 'Cesta k souboru?')
+$base = (Get-Content $soubor)
+$leden = ($base -replace('Jan','01'))
+$unor = ($leden -replace('Feb','02'))
+$brezen = ($unor -replace('Mar','03'))
+$duben = ($brezen -replace('Apr','04'))
+$kveten = ($duben -replace('May','05'))
+$cerven = ($kveten -replace('Jun','06'))
+$cervenec = ($cerven -replace('Jul','07'))
+$srpen = ($cervenec -replace('Aug','08'))
+$zari = ($srpen -replace('Sep','09'))
+$rijen = ($zari -replace('Oct','10'))
+$listopad = ($rijen -replace('Nov','11'))
+$prosinec = ($listopad -replace('Dec','12')) | Out-File "${soubor}_upraveno.txt"
+

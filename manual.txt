@@ -1,0 +1,38 @@
+potreba nainstalovat msoidcli_64
+spustit powershell a dát Install-module MSOnline (vše potvrdit - potøeba spustit jako admin)
+
+nastavit, aby šly spouštìt skripty
+set-executionPolicy unrestricted
+
+$UserCredential = Get-Credential **- bude požadovat pøihlášení do office365
+Connect-MsolService -Credential $UserCredential
+
+32> Get-MsolUser -all | Select-Object Department,Displayname,UsageLocation,PostalCode
+
+
+**výbìr z tìhle objektù
+City                                   : mesto
+Country                                : zeme
+Department                             : IT
+DisplayName                            : Šimon Zajíèek
+Fax                                    : 
+FirstName                              : Šimon
+LastName                               : Zajíèek
+MobilePhone                            : +420 731934249
+Office                                 : kancelar
+PhoneNumber                            : +420 731934249
+PostalCode                             : PSC
+PreferredLanguage                      : cs-CZ
+SignInName                             : zajicek@pragamedica.com
+State                                  : stat
+StreetAddress                          : ulice
+Title                                  : funkce
+UsageLocation                          : CZ
+UserPrincipalName                      : zajicek@pragamedica.com
+
+*všechno info o konkrétním uživateli
+Get-MsolUser -SearchString "Zajicek" | Select-Object City,Country,Department,Displayname,Fax,Firstname,lastname,mobilephone,office,postalcode,signinname,state,StreetAddress,title,userprincipalname
+
+!!  $jmeno = (Get-MsolUser -SearchString "Zajicek" | Select-Object Displayname |  ft -hidetableheaders) **tohle udìlá z výpisu jen promìnnou !!!
+
+

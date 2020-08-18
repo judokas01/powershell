@@ -1,0 +1,3 @@
+﻿$trigger_daily = New-JobTrigger -Daily  -At 05:00AM$trigger_weekly =  New-JobTrigger -Weekly -DaysOfWeek Monday, Wednesday, Friday -At "23:00" -WeeksInterval 4$trigger_everyHour_1day = New-JobTrigger -Once -At "02/21/2018 1:00:00" -RepetitionInterval (New-TimeSpan -Hours 1) -RepetitionDuration (New-Timespan -Hours 24)$trigger_hourly_forever = New-JobTrigger -Once -At "9/21/2012 0am" -RepetitionInterval (New-TimeSpan -Hour 12) -RepetitionDuration ([TimeSpan]::MaxValue)Register-ScheduledJob  -Name Vijay_Task_inal -FilePath "C:\PowerShell\Advanced_PowerShell\Practice Lab\Section5\S05Ex01_SendEmail.ps1" -Trigger $trigger_everyHour
+
+

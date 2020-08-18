@@ -1,0 +1,122 @@
+{
+   "checksum": "b6571aa69e51cc8c87c7b8ede3c95640",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13215284868878080",
+            "id": "5",
+            "name": "Admin",
+            "type": "url",
+            "url": "https://admin2.pragamedica.cz/admin2/"
+         } ,{
+            "date_added": "13209112075013660",
+            "id": "17",
+            "name": "Pragamedica - homepage",
+            "type": "url",
+            "url": "https://www.medicalservicesprague.com/"
+         },         {
+            "date_added": "13207826815083491",
+            "id": "6",
+            "name": "Intranet",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/SitePages/Home.aspx"
+         }, {
+            "date_added": "13209112075013660",
+            "id": "7",
+            "name": "Intranet - Zuby",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/Dentistry/SitePages/DomovskaStranka.aspx"
+         },
+         {
+            "date_added": "13207826815083491",
+            "id": "8",
+            "name": "Intranet - oči",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/Vision-Correction/SitePages/DomovskaStranka.aspx"
+         }, {
+            "date_added": "13209112075013660",
+            "id": "9",
+            "name": "Intranet - kosmetika",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/Cosmetic-Surgery/SitePages/DomovskaStranka.aspx"
+         },{
+            "date_added": "13207826815083491",
+            "id": "10",
+            "name": "Intranet - IVF",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/IVF/SitePages/DomovskaStranka.aspx"
+         }, {
+            "date_added": "13209112075013660",
+            "id": "11",
+            "name": "Intranet - managment",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/Management/SitePages/DomovskaStranka.aspx"
+         },{
+            "date_added": "13207826815083491",
+            "id": "12",
+            "name": "Intranet - teamleader",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/teamleader/SitePages/DomovskaStranka.aspx"
+         }, {
+            "date_added": "13209112075013660",
+            "id": "13",
+            "name": "Intranet - marketing",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/Marketing/SitePages/Home.aspx"
+         },  {
+            "date_added": "13207826815083491",
+            "id": "14",
+            "name": "Intranet - operations",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/operations/SitePages/DomovskaStranka.aspx"
+         }, {
+            "date_added": "13209112075013660",
+            "id": "15",
+            "name": "Intranet - hotel managment",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/Hotel%20Management"
+         },{
+            "date_added": "13207826815083491",
+            "id": "16",
+            "name": "Intranet - sales",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/Sales-Sales"
+         }, {
+            "date_added": "13209112075013660",
+            "id": "17",
+            "name": "Intranet - fakturace",
+            "type": "url",
+            "url": "https://pragamedica.sharepoint.com/Intranet/fakturace-obchod"
+         }, 
+         
+         
+         
+         
+         
+         
+         ],
+         "date_added": "13215284840970260",
+         "date_modified": "13215284868878080",
+         "id": "1",
+         "name": "Lišta záložek",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13215284840970648",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Ostatní záložky",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13215284840970654",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobilní záložky",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

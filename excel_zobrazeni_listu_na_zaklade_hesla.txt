@@ -1,0 +1,35 @@
+
+Private Sub Workbook_BeforeClose(Cancel As Boolean)
+
+Dim List As Worksheet, Sesit As Workbook
+
+For Each List In ActiveWorkbook.Worksheets
+    If List.Name <> "List1" Then List.Visible = xlSheetVeryHidden
+Next List
+
+' ulozit
+ActiveWorkbook.Save
+End Sub
+
+Private Sub Workbook_Open()
+
+Dim List As Worksheet, Sesit As Workbook
+Dim Heslo As String
+
+
+For Each List In ActiveWorkbook.Worksheets
+    If List.Name <> "List1" Then List.Visible = xlSheetVeryHidden
+Next List
+
+Heslo = Application.InputBox("Zadej heslo pro pristup. Dle hesla se zobrazí pøíslušný list.", , , , , , , 2)
+
+Select Case Heslo
+Case "123"
+    Worksheets("list2").Visible = True
+Case "456"
+    Worksheets("list3").Visible = True
+Case Else
+
+MsgBox "Špatné heslo."
+End Select
+End Sub

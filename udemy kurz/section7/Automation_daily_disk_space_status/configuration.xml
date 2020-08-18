@@ -1,0 +1,36 @@
+<DAILY_REPORT>
+		
+		<MONITOR_SERVERS>
+			<SERVER>localhost</SERVER>
+			<SERVER>localhost</SERVER>
+			<SERVER>localhost</SERVER>
+			<SERVER>localhost</SERVER>
+			<!-- Any Extra row if required-->
+		</MONITOR_SERVERS>
+		
+		<MONITOR_THRESHOLD >
+			<!-- Since idea is to create an alarm if disk space is higher than a threshold value, -->
+			<!-- Threshold should be around 80-90 ideally, however it should be fine tuned as per your need -->
+			<!-- You can enhance your script logic and set different threshold for different type of drives -->
+			<DISKSPACE_ERROR>90</DISKSPACE_ERROR>
+			<DISKSPACE_WARNING>80</DISKSPACE_WARNING>
+			
+		</MONITOR_THRESHOLD >
+		
+		
+		
+		
+		
+		<EMAIL>
+			<FROM>testingpurpose2018011@gmail.com</FROM>
+			<TO>testingpurpose2018011@gmail.com</TO>
+			<CC>testingpurpose2018011@gmail.com</CC>
+			<SUBJECT>Disk Space Alert</SUBJECT>
+			
+			<SMTP>smtp.gmail.com</SMTP>
+			<SMTP_USERNAME>testingpurpose2018011@gmail.com</SMTP_USERNAME>
+			<SMTP_PASSWORD>TestingPurpose_forStudents</SMTP_PASSWORD>
+			
+		</EMAIL>
+		
+</DAILY_REPORT>	

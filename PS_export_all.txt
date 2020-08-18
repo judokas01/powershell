@@ -1,0 +1,1 @@
+get-msoluser -all | Select UserPrincipalName |  ft -hidetableheaders > D:\project_signature\users.txt

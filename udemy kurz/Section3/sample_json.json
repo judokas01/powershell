@@ -1,0 +1,9 @@
+{
+    "COMP_INFO": {
+        "NAME": "machine_name",
+		"machine_name": {
+            "SERVICES_INSTALLED": "BITS,AAA,BBB",
+			"CPU_THREASHOLD_PERCENT": 80
+            }
+        }
+ }

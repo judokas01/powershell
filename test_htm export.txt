@@ -1,0 +1,24 @@
+echo "Ahoj, tohle je testovací podpis pro: "$celejmeno "<br>"
+"<img src='https://www.medicalservicesprague.com/assets/img/doctors/d84_profile_small.jpg'><br>"
+$jmeno "" $prijmeni"<br>"
+"" $titul "<br>"
+"<img src='https://www.medicalservicesprague.com/assets/img/header_logo.jpg'><br>"
+"tel.:" $mobil "pevnalinka:" $pevnalinka"<br>"
+"<a href='mailto:"$mail"'>"$mail"</a><br>" | export D:/test_powershell/$jmeno"".htm 
+
+
+***
+echo "Ahoj, tohle je testovací podpis pro: "$celejmeno "<br>" "<img src='https://www.medicalservicesprague.com/assets/img/doctors/d84_profile_small.jpg'><br>" $jmeno "" $prijmeni"<br>" "" $titul "<br>" "<img src='https://www.medicalservicesprague.com/assets/img/header_logo.jpg'><br>" "tel.:" $mobil "pevnalinka:" $pevnalinka "<br>" "<a href='mailto:"$mail "'>"$mail "</a><br>" | export-csv D:\test_powershell\$mail 
+***
+
+
+echo "Ahoj, tohle je testovací podpis pro: ".$celejmeno."<br>"
+"<img src='https://www.medicalservicesprague.com/assets/img/doctors/d84_profile_small.jpg'><br>"
+$jmeno." ".$prijmeni."<br>"
+$titul."<br>"
+"<img src='https://www.medicalservicesprague.com/assets/img/header_logo.jpg'><br>"
+"tel.:".$mobil."pevnalinka:".$pevnalinka."<br>"
+"<a href='mailto:".$mail."'>".$mail."</a><br>" | export D:/test_powershell/$jmeno "".htm 
+
+
+ 

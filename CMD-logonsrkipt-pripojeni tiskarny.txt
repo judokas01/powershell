@@ -1,0 +1,9 @@
+rundll32 printui.dll,PrintUIEntry /in /q /n\\alfa\KONICA_C224e_CB_Prizemi
+rundll32 printui.dll,PrintUIEntry /in /q /n\\alfa\KONICA_C224e_BARVA_Prizemi
+rundll32 printui.dll,PrintUIEntry /dn /q /n\\alfa\KONICA_C224e_BARVA_1.patro
+rundll32 printui.dll,PrintUIEntry /dn /q /n\\alfa\KONICA_C224e_CB_1.patro
+rundll32 printui.dll,PrintUIEntry /dn /q /n\\alfa\KONICA MINOLTA_C224e_BW_1.patro
+
+
+
+rundll32 printui.dll,PrintUIEntry /y /q /n\\alfa\KONICA_C224e_CB_Prizemi
