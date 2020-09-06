@@ -4,3 +4,13 @@ $kdo
 $titul = Read-Host -Prompt 'Titul'
 Set-MsolUser -UserPrincipalName "$user" -country $titul
 }
+
+
+
+
+
+<#
+{sscgcz:STANDARDWOFFPACK_FACULTY} - licence zaměstatnec
+
+{sscgcz:STANDARDWOFFPACK_STUDENT} - licence student
+#>

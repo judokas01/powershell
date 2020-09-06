@@ -1,0 +1,1 @@
+﻿New-Team -DisplayName "tutu"-Description "HEHE" -Template EDU_Class
