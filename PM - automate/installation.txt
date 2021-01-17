@@ -1,0 +1,5 @@
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco install zoiper adobereader googlechrome avastfreeantivirus winrar vlc office365business -y
+
+$name = (read-host ('nový hosname ? max 15 znakù'))
