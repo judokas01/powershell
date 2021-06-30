@@ -1,0 +1,13 @@
+Import-Module ActiveDirectory
+get-ADCOmputer -Filter * | Select-Object Name | ForEach-Object{
+
+ $ping = Test-Connection $_.Name -Quiet -Count 1
+ if ($ping)
+ {
+ "Online $_.Name"
+ }
+      else
+      {
+      "Offline $_.Name"
+
+ }}
