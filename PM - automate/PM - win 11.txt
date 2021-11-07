@@ -1,0 +1,1 @@
+winget install -e --id Adobe.AdobeAcrobatReaderDC Google.Chrome RARLab.WinRAR VideoLAN.VLC 
