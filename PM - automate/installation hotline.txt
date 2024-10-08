@@ -1,4 +1,0 @@
-
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-choco install adobereader googlechrome winrar vlc totalcommander malwarebytes spybot pdfcreator jre8 classic-shell -y
-mkdir c:\hotline
